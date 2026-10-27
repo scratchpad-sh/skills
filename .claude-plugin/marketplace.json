@@ -1,0 +1,37 @@
+{
+  "name": "scratchpad-skills",
+  "owner": {
+    "name": "Scratchpad",
+    "url": "https://scratchpad.sh"
+  },
+  "metadata": {
+    "description": "Free note-taking and writing skills for AI assistants, by interest, by method, and for everyday notes and writing. From Scratchpad, the notes app at https://scratchpad.sh.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "note-taking-methods",
+      "source": "./plugins/note-taking-methods",
+      "version": "1.0.0",
+      "description": "The established ways to take notes, from Cornell notes and the Zettelkasten to mind maps, charting, and the Feynman technique."
+    },
+    {
+      "name": "notes-by-interest",
+      "source": "./plugins/notes-by-interest",
+      "version": "1.0.0",
+      "description": "Notes shaped for what you do: students, teachers, researchers, photographers, cooks, gardeners, botanists, musicians, writers, developers, math lovers, and more."
+    },
+    {
+      "name": "everyday-notes",
+      "source": "./plugins/everyday-notes",
+      "version": "1.0.0",
+      "description": "Meetings, daily notes, weekly reviews, inboxes, and the everyday work of keeping notes tidy, findable, and useful."
+    },
+    {
+      "name": "writing",
+      "source": "./plugins/writing",
+      "version": "1.0.0",
+      "description": "Turn notes into writing, then make it clear, short, and yours: essays, posts, emails, guides, fiction, and editing."
+    }
+  ]
+}

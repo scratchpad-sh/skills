@@ -1,0 +1,12 @@
+{
+  "name": "scratchpad-skills",
+  "private": true,
+  "description": "Free, open-source note-taking and writing skills for AI assistants, from Scratchpad.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "catalogue": "node scripts/check.mjs --write",
+    "package": "node scripts/package.mjs"
+  }
+}
