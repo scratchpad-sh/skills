@@ -60,6 +60,9 @@ npx skills add scratchpad-sh/skills
 The [skills CLI](https://skills.sh) asks which assistants you use and which
 skills you want, and puts them where each assistant looks.
 
+Every skill is also listed on
+[skills.sh](https://skills.sh/scratchpad-sh/skills), with a page of its own.
+
 To install one skill, name it with `--skill`:
 
 ```sh
